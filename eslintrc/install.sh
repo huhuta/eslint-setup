@@ -3,7 +3,7 @@ npm install --save-dev \
     prettier \
     eslint-plugin-jest \
     eslint-plugin-import \
-    eslint-config-airbnb \
-    eslint-config-prettier \
+    eslint-plugin-promise \
     eslint-plugin-prettier \
-    eslint-plugin-promise
+    eslint-config-prettier \
+    eslint-config-airbnb-base \
