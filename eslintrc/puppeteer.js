@@ -1,11 +1,10 @@
 module.exports = {
   extends: [
-    'airbnb-base/legacy',
+    'airbnb-base',
     'plugin:promise/recommended',
     'plugin:prettier/recommended',
   ],
   env: {
-    es6: true,
     node: true,
     jest: true,
     browser: true,

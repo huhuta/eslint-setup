@@ -1,12 +1,9 @@
 module.exports = {
   extends: [
-    'airbnb-base/legacy',
+    'airbnb-base',
     'plugin:promise/recommended',
     'plugin:prettier/recommended',
   ],
-  env: {
-    es6: true,
-  },
   plugins: ['prettier', 'promise'],
   rules: {
     'no-unused-vars': ['error', {
