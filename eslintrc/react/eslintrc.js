@@ -2,10 +2,7 @@ module.exports = {
   extends: [
     'airbnb',
     'prettier/react',
-    'plugin:import/errors',
-    'plugin:import/warnings',
     'plugin:jest/recommended',
-    'plugin:react/recommended',
     'plugin:promise/recommended',
     'plugin:prettier/recommended'
   ],
@@ -13,7 +10,7 @@ module.exports = {
     jest: true,
     browser: true
   },
-  plugins: ['jest', 'react', 'import', 'promise', 'prettier'],
+  plugins: ['jest', 'promise', 'prettier'],
   rules: {
     'no-console': 'error',
     'no-alert': 'error',
