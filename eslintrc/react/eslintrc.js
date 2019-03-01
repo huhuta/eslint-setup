@@ -7,11 +7,11 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:react/recommended',
     'plugin:promise/recommended',
-    'plugin:prettier/recommended',
+    'plugin:prettier/recommended'
   ],
   env: {
     jest: true,
-    browser: true,
+    browser: true
   },
   plugins: ['jest', 'react', 'import', 'promise', 'prettier'],
   rules: {
@@ -21,8 +21,8 @@ module.exports = {
     'no-unused-vars': [
       'error',
       {
-        varsIgnorePattern: '_',
-      },
+        varsIgnorePattern: '_'
+      }
     ],
     'react/jsx-filename-extension': 'off',
     'prettier/prettier': [
@@ -30,8 +30,8 @@ module.exports = {
       {
         semi: false,
         singleQuote: true,
-        arrowParens: 'always',
-      },
-    ],
-  },
+        arrowParens: 'always'
+      }
+    ]
+  }
 }
