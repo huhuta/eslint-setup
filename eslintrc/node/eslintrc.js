@@ -7,8 +7,7 @@ module.exports = {
   ],
   env: {
     node: true,
-    jest: true,
-    browser: true
+    jest: true
   },
   plugins: ['jest', 'prettier', 'promise'],
   rules: {
