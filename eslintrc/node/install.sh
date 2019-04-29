@@ -1,5 +1,6 @@
 npm install --save-dev \
     jest \
+    jest-cli \
     eslint \
     prettier \
     eslint-plugin-jest \
