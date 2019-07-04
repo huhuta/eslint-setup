@@ -1,6 +1,4 @@
 npm install --save-dev \
-    jest \
-    eslint \
     prettier \
     eslint-plugin-jest \
     eslint-config-airbnb \
@@ -8,3 +6,5 @@ npm install --save-dev \
     eslint-plugin-promise \
     eslint-plugin-prettier \
     eslint-config-prettier
+# jest \
+# eslint \
