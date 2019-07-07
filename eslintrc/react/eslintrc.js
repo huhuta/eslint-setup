@@ -10,7 +10,7 @@ module.exports = {
     jest: true,
     browser: true
   },
-  plugins: ['jest', 'promise', 'prettier'],
+  plugins: ['jest', 'promise', 'prettier', 'react', 'react-hooks'],
   rules: {
     'no-console': 'error',
     'no-alert': 'error',
