@@ -12,8 +12,9 @@ module.exports = {
   },
   plugins: ['jest', 'promise', 'prettier', 'react', 'react-hooks'],
   rules: {
-    'no-console': 'error',
     'no-alert': 'error',
+    'no-console': 'error',
+    'react/prop-types': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-unused-vars': [
       'error',
@@ -25,9 +26,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        semi: false,
-        singleQuote: true,
-        arrowParens: 'always'
+        semi: false
       }
     ]
   }
