@@ -1,6 +1,4 @@
 npm install --save-dev \
-    jest \
-    eslint \
     prettier \
     eslint-plugin-jest \
     eslint-plugin-react \
@@ -10,3 +8,7 @@ npm install --save-dev \
     eslint-plugin-prettier \
     eslint-plugin-react-hooks \
     eslint-config-prettier
+
+# create react app already install
+# jest \
+# eslint \
