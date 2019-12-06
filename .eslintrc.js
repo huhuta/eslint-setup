@@ -1,21 +1,24 @@
 module.exports = {
   extends: [
-    'airbnb-base',
-    'plugin:promise/recommended',
-    'plugin:prettier/recommended',
+    "airbnb-base",
+    "plugin:promise/recommended",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended"
   ],
-  plugins: ['prettier', 'promise'],
-  rules: {
-    'no-unused-vars': ['error', {
-      varsIgnorePattern: '_'
-    }],
-    'prettier/prettier': [
-      'error',
-      {
-        semi: false,
-        singleQuote: true,
-        arrowParens: 'always',
-      },
-    ],
+  env: {
+    node: true,
+    jest: true
   },
+  plugins: ["jest", "prettier", "promise"],
+  rules: {
+    "no-unused-vars": ["error", {
+      varsIgnorePattern: "_"
+    }],
+    "prettier/prettier": [
+      "error",
+      {
+        semi: false
+      }
+    ]
+  }
 }
