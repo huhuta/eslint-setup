@@ -28,6 +28,7 @@ module.exports = {
       }
     ],
     "react/prop-types": "off",
+    "react/jsx-sort-props": "warn",
     "react/jsx-filename-extension": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
