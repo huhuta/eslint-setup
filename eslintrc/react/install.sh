@@ -1,3 +1,6 @@
+REPO="$(cd $(dirname $0) && pwd)"
+cp $REPO/.eslintrc.js ./
+
 npm install --save-dev \
     prettier \
     eslint-config-airbnb \
