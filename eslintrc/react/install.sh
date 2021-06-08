@@ -6,7 +6,8 @@ npm install --save-dev \
     eslint-config-airbnb \
     eslint-plugin-promise \
     eslint-plugin-prettier \
-    eslint-config-prettier
+    eslint-config-prettier \
+    eslint-plugin-markdown
 
 # create react app already install
 # jest \
