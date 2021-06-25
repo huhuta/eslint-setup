@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     "airbnb",
-    "prettier/react",
+    "prettier",
     "plugin:jest/recommended",
     "plugin:promise/recommended",
     "plugin:prettier/recommended"
@@ -26,7 +26,8 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        semi: false
+        semi: false,
+        trailingComma: "none",
       }
     ],
     "react/jsx-sort-props": "warn",
